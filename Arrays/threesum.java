@@ -1,19 +1,16 @@
 // two pointer approach
 import java.util.*;
-
 public class threesum {
     public static void main(String[] args) {
         Solution sol = new Solution();
         int[] nums = {-1, 0, 1, 2, -1, -4};
         List<List<Integer>> result = sol.threeSum(nums);
-        
         System.out.println("Triplets that sum to 0 are:");
         for (List<Integer> triplet : result) {
             System.out.println(triplet);
         }
     }
 }
-
 class Solution {
     public List<List<Integer>> threeSum(int[] nums) {
        Arrays.sort(nums);
