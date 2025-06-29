@@ -17,7 +17,7 @@ class Solution {
         nums[j] = t;
     }
 }
-public class sort{
+public class sortColors{
     public static void main(String[] args) {
         Solution solution = new Solution();
         int[] nums = {2, 0, 2, 1, 1, 0};
